@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="MultiTests">
+        <classes>
+            <class name="testNgTests.AnnotationsMultiTests.C1"></class>
+            <class name="testNgTests.AnnotationsMultiTests.C2"></class>
+            <class name="testNgTests.AnnotationsMultiTests.C3"></class>
+
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="MultiTests2">
+        <classes>
+            <class name="testNgTests.AnnotationsMultiTests.C2"></class>
+            <class name="testNgTests.AnnotationsMultiTests.C2"></class>
+            <class name="testNgTests.AnnotationsMultiTests.C3"></class>
+        </classes>
+    </test>
+</suite>
